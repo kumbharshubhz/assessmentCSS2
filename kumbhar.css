@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(141, 141, 219);
+    border: 10px groove greenyellow;
+}
+.first{
+    display: inline-block;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+ } 
+.box2{
+    background-color: black;
+    color: white;
+    border: 5px solid red;
+    width: 300px;
+    /* height: 60px; */
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size:x-large;
+    line-height: 25px;
+}
+.b2{
+    margin-left: 700px;
+    font-size: 18px;
+line-height: 27px;
+}
+.b3{
+    width: 330px;
+    position: absolute;
+    top: 20px;
+    left: 180px;
+}
+.box2 ul li{
+    list-style-type: none;
+}
+.circleform{
+    display: flex;
+    flex-flow: row;
+}
+.circle{
+    background-color: rgb(19, 148, 165);
+    border: 10px solid rgb(95, 95, 95);
+    border-radius: 50%;
+    width: 370px;
+    height: 370px;
+    padding: 20px;
+    margin: 180px 50px 0px 30px;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: larger;
+    line-height: 20px;
+    text-decoration-line: underline;
+}
+.hr1{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.forms{
+    width: 370px;
+    /* height: 600px; */
+    border: 5px dashed red;
+    display: inline-block;
+    text-align: center;
+    /* margin: 50px 0px 100px 200px; */
+    font-size: larger;
+    line-height: 27px;
+    background-color: white;
+    color: red;
+    margin: 40px 0px 0px 90px;
+}
+.formh1{
+    padding: 20px 0px 20px 0px;
+}
+.second{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.menu{
+    background-color: black;
+    text-align: center;
+    border: 8px solid red;
+    border-radius: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 34px;
+    justify-content: center;
+    width: 400px;
+    padding: 20px;
+    margin: 30px 0px 10px 520px;
+}
+.menubox{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: darkblue;
+}
+.box{
+    background-color: aqua;
+    border: 3px solid green;
+    border-radius: 20px;
+    width: 300px;
+    margin: 30px 40px 30px 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box h3{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.box ul{
+    padding-left: 25px;
+}
+.box ul li{
+    align-items: center;
+ } 
